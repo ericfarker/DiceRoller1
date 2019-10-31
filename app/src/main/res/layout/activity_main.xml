@@ -2,6 +2,7 @@
 
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
@@ -14,21 +15,24 @@
         android:layout_width="135dp"
         android:layout_height="131dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/dice_1" />
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/dice_1"/>
 
     <ImageView
         android:id="@+id/dice_image1"
         android:layout_width="133dp"
         android:layout_height="127dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/dice_1" />
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/dice_1"/>
 
     <ImageView
         android:id="@+id/dice_image2"
-        android:layout_width="123dp"
-        android:layout_height="98dp"
+        android:layout_width="133dp"
+        android:layout_height="127dp"
         android:layout_gravity="center_horizontal"
-        android:src="@drawable/dice_1" />
+        app:srcCompat="@drawable/empty_dice"
+        tools:src="@drawable/dice_1" />
 
     <Button
         android:id="@+id/roll_button"
